@@ -1,0 +1,41 @@
+h1 {
+    font-size: 80px;
+    color: rgb(160, 110, 0);
+}
+h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.list-text .initial-link {
+
+
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.list-text {
+    font-family: Helvetica, sans-serif, "Times New Roman";
+    color: black;
+    font-size: 18px;
+}
+.universal-text {
+    text-align: center;
+    list-style-type: none;
+    margin: 1;
+    padding: 0;
+}
+ol li {
+    list-style: inside;
+    list-style-type: list-item;
+}
+img {
+    width: 250;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    font-size: 25px;
+}
+
+
