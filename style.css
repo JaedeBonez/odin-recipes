@@ -1,17 +1,31 @@
+html{
+    box-sizing: border-box;
+    background-color: #0f4d5c50;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 h1 {
     font-size: 80px;
-    color: rgb(160, 110, 0);
+    color: #5f0f40;
 }
 
 h3 {
     font-size: 50px;
     font-weight: 800;
+    color: #9a031e;
 }
 
-.initial-link {
+.initial-link li {
     font-size: 30px;
     margin-bottom: 20px;
     list-style-type: none;
+    display: inline-block;
+    border: solid 2px black;
+    background-color: #e3631491;
 }
 
 ul.list-text {
@@ -47,13 +61,24 @@ img {
 
 p {
     font-size: 25px;
-    display: inline-block;
     text-align: left;
+    width: 750px;
+    height: auto;
 }
 
 body {
     font-family: Helvetica, sans-serif, "Times New Roman";
     text-align: center;
+}
+
+.center-paragraph {
+    display: inline-block;
+}
+.homepage-img {
+    display: inline-block;
+    height: 500px;
+    width: 550px;
+    margin: 16px;
 }
 
 
